@@ -1,0 +1,23 @@
+{
+  "name": "soundzies",
+  "version": "0.0.1",
+  "description": "Sound playing Amazon echo skill - what does a cow say?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"todo\""
+  },
+  "keywords": [
+    "soundzies",
+    "alexa",
+    "skill"
+  ],
+  "author": "jcasseday",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.0.0"
+  }
+}
