@@ -48,19 +48,20 @@ const handlers = {
 };
 
 const audioData = {
-    'cow': '<audio src="https://s3.amazonaws.com/soundzies/audio/cow_alexa.mp3" />',
-    'sheep': '<audio src="https://s3.amazonaws.com/soundzies/audio/sheep_alexa.mp3" />',
-    'swan': '<audio src="https://s3.amazonaws.com/soundzies/audio/swan_alexa.mp3" />',
-    'lion': '<audio src="https://s3.amazonaws.com/soundzies/audio/lion_alexa.mp3" />',
-    'crocodile': '<audio src="https://s3.amazonaws.com/soundzies/audio/crocodile_alexa.mp3" />',
-    'cat': 'meow',
-    'dog': '<audio src="https://s3.amazonaws.com/soundzies/audio/dog_alexa.mp3" />',
-    'bird': 'tweet',
-    'mouse': 'sqweek',
-    'frog': 'croak',
-    'elephant': '<audio src="https://s3.amazonaws.com/soundzies/audio/elephant_alexa.mp3" />',
-    'duck': 'quack',
-    'fish': 'blub',
-    'seal': 'ow, ow, ow',
-    'fox': 'ring ding ding ding ring ding ring ding ding ding ring ding ding'
+  'Bunny': '<audio src="https://s3.amazonaws.com/soundzies/audio/Bunny_alexa.mp3" />',
+  'Cat': '<audio src="https://s3.amazonaws.com/soundzies/audio/Cat_alexa.mp3" />',
+  'Chicken': '<audio src="https://s3.amazonaws.com/soundzies/audio/Chicken_alexa.mp3" />',
+  'Cow': '<audio src="https://s3.amazonaws.com/soundzies/audio/Cow_alexa.mp3" />',
+  'Coyote': '<audio src="https://s3.amazonaws.com/soundzies/audio/Coyote_alexa.mp3" />',
+  'Crocodile': '<audio src="https://s3.amazonaws.com/soundzies/audio/Crocodile_alexa.mp3" />',
+  'Crow': '<audio src="https://s3.amazonaws.com/soundzies/audio/Crow_alexa.mp3" />',
+  'Dog': '<audio src="https://s3.amazonaws.com/soundzies/audio/Dog_alexa.mp3" />',
+  'Elephant': '<audio src="https://s3.amazonaws.com/soundzies/audio/Elephant_alexa.mp3" />',
+  'Fox': '<audio src="https://s3.amazonaws.com/soundzies/audio/Fox_alexa.mp3" />',
+  'Horse': '<audio src="https://s3.amazonaws.com/soundzies/audio/Horse_alexa.mp3" />',
+  'Lion': '<audio src="https://s3.amazonaws.com/soundzies/audio/Lion_alexa.mp3" />',
+  'Sheep': '<audio src="https://s3.amazonaws.com/soundzies/audio/Sheep_alexa.mp3" />',
+  'Snake': '<audio src="https://s3.amazonaws.com/soundzies/audio/Snake_alexa.mp3" />',
+  'Swan': '<audio src="https://s3.amazonaws.com/soundzies/audio/Swan_alexa.mp3" />',
+  'test': 'sound test'
 };
