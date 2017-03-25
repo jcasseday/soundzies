@@ -11,7 +11,7 @@ const FOUND_REPROMPT = 'try another sound or say stop';
 const NOTFOUND_MESSAGE = 'I do not know that sound. Please try again';
 const HELP_MESSAGE = 'You can ask me to play a sound like, what does a cow say?';
 const HELP_REPROMPT = 'What sound would you like to hear?';
-const EXIT_MESSAGE = 'After while crocodile';
+const EXIT_MESSAGE = 'See you later alligator';
 
 exports.handler = (event, context, callback) => {
     const alexa = Alexa.handler(event, context);
@@ -60,6 +60,7 @@ const handlers = {
 };
 
 const audioData = {
+  'alexis': '<audio src="https://s3.amazonaws.com/soundzies/audio/Alexis_alexa.mp3" />',
   'bunny': '<audio src="https://s3.amazonaws.com/soundzies/audio/Bunny_alexa.mp3" />',
   'cat': '<audio src="https://s3.amazonaws.com/soundzies/audio/Cat_alexa.mp3" />',
   'chicken': '<audio src="https://s3.amazonaws.com/soundzies/audio/Chicken_alexa.mp3" />',
@@ -70,7 +71,10 @@ const audioData = {
   'dog': '<audio src="https://s3.amazonaws.com/soundzies/audio/Dog_alexa.mp3" />',
   'elephant': '<audio src="https://s3.amazonaws.com/soundzies/audio/Elephant_alexa.mp3" />',
   'fox': '<audio src="https://s3.amazonaws.com/soundzies/audio/Fox_alexa.mp3" />',
+  'frog': '<audio src="https://s3.amazonaws.com/soundzies/audio/Frog_alexa.mp3" />',
+  'gorilla': '<audio src="https://s3.amazonaws.com/soundzies/audio/Gorilla_alexa.mp3" />',
   'horse': '<audio src="https://s3.amazonaws.com/soundzies/audio/Horse_alexa.mp3" />',
+  'monkey': '<audio src="https://s3.amazonaws.com/soundzies/audio/Monkey_alexa.mp3" />',
   'lion': '<audio src="https://s3.amazonaws.com/soundzies/audio/Lion_alexa.mp3" />',
   'sheep': '<audio src="https://s3.amazonaws.com/soundzies/audio/Sheep_alexa.mp3" />',
   'snake': '<audio src="https://s3.amazonaws.com/soundzies/audio/Snake_alexa.mp3" />',
